@@ -1,0 +1,292 @@
+Mg Phoe Chit, [10/23/2025 4:27 PM]
+<!DOCTYPE html>
+<html lang="my">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Love TMH - ထာဝရချစ်ခြင်း</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+    <div id="heart-container"></div>
+
+    <nav class="navbar">
+        <a href="#home" class="logo">My Love TMH</a>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#couple-photos">Couple Photos</a></li>
+            <li><a href="#videos">Videos</a></li>
+            <li><a href="#music">Music</a></li>
+            <li><a href="#message">Message</a></li>
+        </ul>
+    </nav>
+
+    <section id="home" class="hero-section">
+        <div class="hero-content">
+            <h1 class="fade-in-up-1">ကမ္ဘာပေါ်မှာ အလှဆုံးဖြစ်တဲ့</h1>
+            <h2 class="fade-in-up-2">ငါ့ရဲ့ ကောင်မလေး</h2>
+            <p class="fade-in-up-3">
+                <span id="typing-text"></span>
+                <span class="heart-beat-icon"><i class="fas fa-heart"></i></span>
+            </p>
+            <a href="#couple-photos" class="cta-button pulse-effect">အမှတ်တရများ စတင်ကြည့်ရှုရန်</a>
+        </div>
+    </section>
+
+    <section id="couple-photos" class="content-section">
+        <h2>Couple Photos <span class="heart-icon-title"><i class="fas fa-camera-retro"></i></span></h2>
+        <div class="gallery-grid">
+            <div class="photo-box hover-zoom-shadow" onclick="showPopup('media/couple/c1.jpg')">
+                <img src="media/couple/c1.jpg" alt="Couple Photo 1">
+                <div class="overlay">ချစ်ရသောအချိန်</div>
+            </div>
+            <div class="photo-box hover-zoom-shadow" onclick="showPopup('media/couple/c2.jpg')">
+                <img src="media/couple/c2.jpg" alt="Couple Photo 2">
+                <div class="overlay">အတူရှိခြင်း</div>
+            </div>
+            <div class="photo-box hover-zoom-shadow" onclick="showPopup('media/couple/c3.jpg')">
+                <img src="media/couple/c3.jpg" alt="Couple Photo 3">
+                <div class="overlay">အမှတ်တရပုံရိပ်</div>
+            </div>
+             <div class="photo-box hover-zoom-shadow" onclick="showPopup('media/couple/c4.jpg')">
+                <img src="media/couple/c4.jpg" alt="Couple Photo 4">
+                <div class="overlay">ကြည်နူးစရာ</div>
+            </div>
+             <div class="photo-box hover-zoom-shadow" onclick="showPopup('media/couple/c5.jpg')">
+                <img src="media/couple/c5.jpg" alt="Couple Photo 5">
+                <div class="overlay">နူးညံ့မှု</div>
+            </div>
+             <div class="photo-box hover-zoom-shadow" onclick="showPopup('media/couple/c6.jpg')">
+                <img src="media/couple/c6.jpg" alt="Couple Photo 6">
+                <div class="overlay">ထာဝရ</div>
+            </div>
+        </div>
+        <h3 class="photo-section-subtitle">အခြား အမှတ်တရ ဓာတ်ပုံများ</h3>
+         <div class="gallery-grid">
+             <div class="photo-box hover-zoom-shadow" onclick="showPopup('media/photos/t1.jpg')">
+                <img src="media/photos/t1.jpg" alt="Personal Photo 1">
+                <div class="overlay">မင်းရဲ့အလှ</div>
+            </div>
+             <div class="photo-box hover-zoom-shadow" onclick="showPopup('media/photos/t2.jpg')">
+                <img src="media/photos/t2.jpg" alt="Personal Photo 2">
+                <div class="overlay">အပြုံးပိုင်ရှင်</div>
+            </div>
+             <div class="photo-box hover-zoom-shadow" onclick="showPopup('media/photos/t3.jpg')">
+                <img src="media/photos/t3.jpg" alt="Personal Photo 3">
+                <div class="overlay">အသည်းကျော်</div>
+            </div>
+         </div>
+    </section>
+
+Mg Phoe Chit, [10/23/2025 4:27 PM]
+<section id="videos" class="content-section media-section">
+        <h2>Sweet Videos <span class="heart-icon-title"><i class="fas fa-video"></i></span></h2>
+        <div class="media-grid">
+            <div class="media-box hover-glow">
+                <video controls poster="media/photos/t1.jpg"> 
+                    <source src="media/videos/v1.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <p>Video 1 - အချစ်ရဲ့စတင်ခြင်း</p>
+            </div>
+             <div class="media-box hover-glow">
+                <video controls poster="media/photos/t2.jpg">
+                    <source src="media/videos/v2.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <p>Video 2 - အပျော်ဆုံးအချိန်</p>
+            </div>
+             </div>
+    </section>
+
+    <section id="music" class="content-section media-section">
+        <h2>Our Favorite Music <span class="heart-icon-title"><i class="fas fa-music"></i></span></h2>
+        <div class="media-grid music-grid">
+            <div class="music-box hover-shadow-pink">
+                <p>🎶 သီချင်း 1 (En)</p>
+                <audio controls>
+                    <source src="media/music/m1.mp3" type="audio/mp3">
+                    Your browser does not support the audio element.
+                </audio>
+            </div>
+             <div class="music-box hover-shadow-pink">
+                <p>🎶 သီချင်း 2 (မောင်အမြဲဆိုပြနေတဲ့သီချင်းလေ🎶)</p>
+                <audio controls>
+                    <source src="media/music/m2.mp3" type="audio/mp3">
+                    Your browser does not support the audio element.
+                </audio>
+            </div>
+             </div>
+             <section id="favorite-things" class="content-section media-section">
+        <h2>My Favorite Things About You <span class="heart-icon-title"><i class="fas fa-gem"></i></span></h2>
+        <div class="favorite-grid">
+            <div class="thing-card hover-glow-pink">
+                <span class="card-icon"><i class="fas fa-star"></i></span>
+                <p>မင်းရဲ့ ကြည်နူးစရာ အပြုံး</p>
+            </div>
+            <div class="thing-card hover-glow-pink">
+                <span class="card-icon"><i class="fas fa-brain"></i></span>
+                <p>မင်းရဲ့ နွေးထွေတဲ့ မေတ္တာ</p>
+            </div>
+            <div class="thing-card hover-glow-pink">
+                <span class="card-icon"><i class="fas fa-hand-holding-heart"></i></span>
+                <p>မင်းရဲ့ နွေးထွေးသော စေတနာ</p>
+            </div>
+            <div class="thing-card hover-glow-pink">
+                <span class="card-icon"><i class="fas fa-heart-circle-bolt"></i></span>
+                <p>ငါ့အပေါ်ထားတဲ့ မင်းရဲ့ အချစ်</p>
+            </div>
+            <div class="thing-card hover-glow-pink">
+                <span class="card-icon"><i class="fas fa-gift"></i></span>
+                <p>ဘယ်တော့မှမကုန်တဲ့ အလှတရား</p>
+            </div>
+             <div class="thing-card hover-glow-pink">
+                <span class="card-icon"><i class="fas fa-magic"></i></span>
+                <p>ငါ့ကို ရူးသွပ်စေတဲ့ အကြည့်</p>
+            </div>
+        </div>
+        <section id="love-start-day" class="content-section start-day-section">
+        
+        <div id="start-day-heading" class="love-heading-box shake-flash-effect">
+            <i class="fas fa-kiss-wink-heart"></i> The day they started loving each other <i class="fas fa-kiss-wink-heart"></i>
+        </div>
+        
+        <div id="calendar-area" class="calendar-container hidden">
+            <div id="love-start-calendar" class="neumorphism-calendar box-shadow-pink">
+                <div class="calendar-header">
+                    <p class="month">December</p>
+                    <p class="year">2023</p>
+                </div>
+                <div class="calendar-date-box" onclick="triggerHeartExplosion(event)">
+                    <span class="day-of-week">Thursday</span>
+                    <span class="date-number">07</span>
+                </div>
+                <div class="calendar-footer">
+                    <i class="fas fa-heartbeat heart-beat-icon"></i> Our Story Began!
+                </div>
+            </div>
+        </div>
+        
+    </section>
+
+<div id="explosion-area"></div>
+        <section id="countdown" class="content-section countdown-section">
+        <h2>Countdown To Our Forever <span class="heart-icon-title"><i class="fas fa-clock"></i></span></h2>
+        <div class="countdown-box box-shadow-pink fade-in-up-4">
+            <p class="countdown-title">မောင်တို့ရဲ့ 2 year anniversary ကိုစောင့်ရမယ့် အချိန်...</p>
+            <div id="timer" class="timer-display">
+                <div class="time-unit">
+                    <span id="days">00</span>
+                    <label>Days</label>
+                </div>
+                <div class="time-unit">
+                    <span id="hours">00</span>
+                    <label>Hours</label>
+                </div>
+                <div class="time-unit">
+                    <span id="minutes">00</span>
+                    <label>Minutes</label>
+                </div>
+                <div class="time-unit">
+                    <span id="seconds">00</span>
+                    <label>Seconds</label>
+                </div>
+            </div>
+            <div id="countdown-finished-message" class="finished-message">
+                </div>
+        </div>
+
+    </section>
+        <section id="timeline" class="content-section timeline-section">
+        <h2>Our Love Journey <span class="heart-icon-title"><i class="fas fa-route"></i></span></h2>
+
+        <div class="timeline-container">
+
+            <div class="timeline-item left-item fade-in-scroll">
+                <div class="timeline-dot"><i class="fas fa-calendar-check"></i></div>
+                <div class="timeline-content box-shadow-pink">
+                    <h3>2023.12.7 -ပထမဆုံတွေ့ဆုံသောနေ့ </h3>
+                    <p>အချစ်ရဲ့ ဇာတ်လမ်းစခဲ့တဲ့ ပထမဆုံး နေ့လေး။ ကံကြမ္မာရဲ့ ဖန်တီးမှုပါပဲ။</p>
+                </div>
+            </div>
+
+            <div class="timeline-item right-item fade-in-scroll">
+                 <div class="timeline-dot"><i class="fas fa-ring"></i></div>
+                <div class="timeline-content box-shadow-pink">
+                    <h3>2024.06.24 - အခက်ခဲတွေနဲ့မေ့မနိုင်တဲ့အမှတ်တရတွေပေါ့</h3>
+                    <p>ရင်ခုန်သံတွေ တိတ်တဆိတ် မြန်ခဲ့တဲ့ အခိုက်အတန့်လေး... အရာရာက ပြီးပြည့်စုံခဲ့တယ်။</p>
+                </div>
+            </div>
+
+            <div class="timeline-item left-item fade-in-scroll">
+                <div class="timeline-dot"><i class="fas fa-plane"></i></div>
+                <div class="timeline-content box-shadow-pink">
+                    <h3>2024.06.29 - ပထမဆုံး ခရီး</h3>
+                    <p>မိုးကောင်းကင်အောက်က ငါတို့နှစ်ယောက်... အမှတ်တရတွေ များစွာနဲ့ပေါ့။</p>
+                </div>
+            </div>
+            
+             <div class="timeline-item right-item surprise-item fade-in-scroll">
+                <div class="timeline-dot pulse-effect-large"><i class="fas fa-map-marker-alt"></i></div>
+                <div class="timeline-content box-shadow-pink">
+                    <h3>2025.12.07 - 2Year anniversary 💐</h3>
+                    <p class="future-plan-text">©Mg Phoe Chit/ Thursday, October, 23</p>
+                </div>
+            </div>
+
+        </div>
+        <section id="love-start-day" class="content-section start-day-section">
+        
+        <div id="start-day-heading" class="love-heading-box shake-flash-effect">
+            <i class="fas fa-kiss-wink-heart"></i> The day they started loving each other <i class="fas fa-kiss-wink-heart"></i>
+        </div>
+        
+        <div id="calendar-area" class="calendar-container hidden">
+            <div id="love-start-calendar" class="neumorphism-calendar box-shadow-pink">
+                <div class="calendar-header">
+                    <p class="month">December</p>
+                    <p class="year">2023</p>
+                </div>
+                <div class="calendar-date-box" onclick="triggerHeartExplosion(event)">
+                    <span class="day-of-week">Thursday</span>
+                    <span class="date-number">07</span>
+                </div>
+                <div class="calendar-footer">
+                    <i class="fas fa-heartbeat heart-beat-icon"></i> Our Story Began!
+                </div>
+            </div>
+        </div>
+        
+    </section>
+    </section>
+    </section>
+
+    </section>
+
+    <section id="message" class="content-section message-section">
+        <h2>အသည်းကလာသော စာတစ်စောင် <span class="heart-icon-title"><i class="fas fa-envelope-open-text"></i></span></h2>
+        <div class="message-box rotate-on-hover">
+            <p id="special-message" class="handwriting-font"></p>
+            <div class="signature">
+                <p>- သဲလေချစ်သောမောင်😊</p>
+                <span class="heart-pulse-signature">❤️</span>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 My Love TMH. All rights reserved. With Endless Love.</p>
+        <a href="#home" class="to-top-button pulse-effect"><i class="fas fa-arrow-up"></i> Home ကို ပြန်သွားမည်</a>
+    </footer>
+
+    <div id="image-popup" class="modal" onclick="closePopup()">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="popup-image">
+    </div>
+
+    <script src="script.js"></script>
+   
+</body>
+</html>
